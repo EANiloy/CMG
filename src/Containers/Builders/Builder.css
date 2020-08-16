@@ -1,0 +1,77 @@
+.Content
+{
+    display:flex;
+    flex-flow:row wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+.Pics
+{
+    width:350px;
+    height:350px;
+}
+.Pizza
+{
+    flex-flow:column wrap;
+    display:flex;
+    justify-content: center;
+    margin:40px 40px;
+    padding:40px 40px;
+}
+.Burger
+{
+    flex-flow:column wrap;
+    display:flex;
+    justify-content: center;
+    margin:40px 40px;
+    padding:40px 40px;
+}
+.Btn1
+{
+    position: absolute;
+    left:20%;
+    background-color:#ffffff;
+    height:80px;
+    border-radius: 0px 20px 0px 20px;
+    width:200px;
+    outline: none;
+    cursor: pointer;
+    border: 5px solid #962523;
+    color: #962523;
+    font-family: inherit;
+    font-size: 1.2em;
+    box-shadow: 2px 2px 2px #440d17;
+    z-index: 5;
+    font-weight: bold;
+}
+.Btn2
+{
+    position:absolute;
+    left:20%;
+    background-color:#ffffff;
+    height:80px;
+    border-radius: 20px 0px 20px 0px;
+    width:200px;
+    outline: none;
+    cursor: pointer;
+    border: 5px solid #962523;
+    color: #962523;
+    font-family: inherit;
+    font-size: 1.2em;
+    box-shadow: 2px 2px 2px #440d17;
+    z-index: 5;
+    font-weight: bold;
+}
+.Btn1:hover, .Btn1:active{
+    background-color: #962523;
+    color:#ffffff;
+}
+
+.Btn2:hover, .Btn2:active{
+    background-color: #962523;
+    color:#ffffff;
+}
+.Buttons{
+    position: relative;
+}

@@ -1,0 +1,77 @@
+.Details
+{
+    width: 250px;
+    padding: 0px 10px;
+    height:100%;
+    text-align: left;
+    align-items: center;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 3px #ccc;
+    box-sizing: border-box;
+    display: block;
+    position: relative;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+}
+.Items
+{
+    text-transform: capitalize;
+}
+.Orders
+{
+    margin:10px 10px;
+}
+.Title
+{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+.PizzaTitle
+{
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+.BurgerTitle
+{
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.BuyInfo
+{
+    text-align: center;
+    position: absolute;
+    bottom:5%;
+}
+.Price
+{
+    text-align: center;
+    margin-left: 40%;
+}
+.Delete
+{
+    background-color:#962523;
+    height:35px;
+    width:150px;
+    outline: none;
+    cursor: pointer;
+    border: 1px dotted #750014;
+    color: #fcfcfc;
+    font-family: inherit;
+    font-size: 16px;
+    box-shadow: 2px 2px 2px #440d17;
+    font-weight: bold;
+    display: block;
+    margin-left: 25%;
+}
+
+
+.Delete:hover, .Delete:active {
+    background-color:  white;
+    border: 1px solid #750014;
+    color: #962523;
+    font-weight: bold;
+}

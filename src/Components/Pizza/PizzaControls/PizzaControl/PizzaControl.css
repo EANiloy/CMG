@@ -1,0 +1,116 @@
+.BuildControl {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2px 5px;
+    float:right;
+    padding:5px 0;
+}
+
+.BuildControl button {
+    display: block;
+    font: inherit;
+    padding: 5px;
+    margin: 0 5px;
+    width: 80px;
+    border: 1px solid #fff;
+    cursor: pointer;
+    outline: none;
+}
+
+.BuildControl button:disabled {
+    background-color: #AC9980;
+    border: 1px solid #7E7365;
+    color: #ccc;
+    cursor: default;
+}
+
+.BuildControl button:hover:disabled {
+    background-color: #AC9980;
+    color: #ccc;
+    cursor: not-allowed;
+}
+
+.Label {
+    color:lavender;
+    background-color:transparent;
+    margin : 0 10px;
+    font-size: 18px;
+    font-weight: bold;
+    width: 125px;
+    height:25px;
+    padding-left:5px;
+    padding-right:5px;
+    padding-top:2px;
+    padding-bottom:2px;
+}
+
+.BuildControl .Less {  
+    background-color:White;
+    color: #962523;
+}
+
+.BuildControl .More {
+    background-color:#fdf1f1;
+    color: #962523;
+}
+
+.BuildControl .Less:hover, .BuildControl .Less:active {  
+    background-color:#dd3f39;
+    color: white;
+    font-weight: bold;
+}
+
+.BuildControl .More:hover,.BuildControl .More:active {
+    background-color: #dd3f39;
+    color: white;
+    font-weight: bold;
+}
+.SizeControl
+{
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 2px 10px;
+    padding:5px 0;
+}
+.Size {
+    border:2px dashed;
+    box-shadow: 1px #fff;
+    float: right;
+    text-align: center;
+    width:100px;
+    height: 30px;
+    font-size: 14px;
+    background-color:#fdf1f1;
+    color: #962523;
+    margin:20px 10px;
+    padding:5px 2px;
+}
+.SizeControl .Size:hover,.SizeControl .Size:active {
+    background-color: #dd3f39;
+    color: white;
+    font-weight: bold;
+}
+
+
+.SizeControl .Size:disabled {
+    background-color: #AC9980;
+    border: 1px solid #7E7365;
+    color: #ccc;
+    cursor: default;
+}
+
+.SizeControl .Size:hover:disabled {
+    background-color: #AC9980;
+    color: #ccc;
+    cursor: not-allowed;
+}
+
+@media (min-width:360px) and (max-width:450px)
+{
+    .Size{
+        margin-left:2px;
+    }
+}

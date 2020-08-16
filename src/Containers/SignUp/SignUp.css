@@ -1,0 +1,53 @@
+.Signup
+{
+    margin:5% auto;
+    width: 30%;
+    text-align: center;
+    box-shadow: 0 2px 3px rgb(121, 120, 120);
+    border: 1px solid rgb(182, 179, 179);
+    padding: 10px;
+    box-sizing: border-box;
+    align-items: center;
+    text-align: center;
+}
+
+
+.Link
+{
+    width:70px;
+    position:fixed;
+    margin:5px;
+    top:80px;
+    border:none;
+    background-color: transparent;
+    text-align: center;
+    padding:2px;
+    right:50px;
+    height:inherit;
+    color:blue;
+    cursor:pointer;
+    font-size: medium;
+}
+.Link:hover,.Link:active
+{
+    text-decoration: underline;
+}
+.Link:focus{
+    color:blueviolet;
+}
+.Header
+{
+    text-align: center;
+}
+@media (max-width:450px)
+{
+    .Link{
+        display:none;
+    }
+}
+@media(min-width:360px) and (max-width:450px)
+{
+    .Signup{
+        width:95%;
+    }
+}

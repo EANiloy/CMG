@@ -1,0 +1,36 @@
+.Spinner
+{
+    width:50%;
+    margin:20% 25%;
+}
+.Header
+{
+    text-align: center;
+}
+.Order
+{
+    width:50%;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 3px #999;
+    padding: 10px;
+    margin:auto auto;
+    margin-top: 100px;
+    box-sizing: border-box;
+}
+.Spinner
+{
+    margin-top:25%;
+    margin-left:25%;
+}
+.Message{
+    text-align: center;
+    width:100%;
+}
+@media (min-width:360px) and (max-width:450px)
+{
+    .Spinner{
+        width:80%;
+        margin-top:70%;
+        margin-left:10%;
+    }
+}

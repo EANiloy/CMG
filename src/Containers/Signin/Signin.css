@@ -1,0 +1,19 @@
+.Signin
+{
+    margin:10% auto;
+    width: 30%;
+    text-align: center;
+    box-shadow: 0 2px 3px rgb(121, 120, 120);
+    border: 1px solid rgb(182, 179, 179);
+    padding: 10px;
+    box-sizing: border-box;
+    align-items: center;
+    text-align: center;
+}
+@media (min-width:360px) and (max-width:450px)
+{
+    .Signin
+    {
+        width:80%;
+    }
+}

@@ -1,0 +1,125 @@
+html{
+    scroll-behavior: smooth
+}
+html ::-webkit-scrollbar
+{
+    display: none;
+}
+.Logos
+{
+    display:block;
+    float:left;
+    width:60px;
+    height:60px;
+    padding:5px 10px;
+}
+.Home
+{
+    text-align: center;
+    align-items: center;
+    color:#750014;
+    opacity: 1;
+}
+.Menu{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding-bottom:50px;
+    padding-top: 50px;
+}
+.MenuButton {
+    background-color:#962523;
+    height:50px;
+    border-radius: 10px;
+    width:200px;
+    outline: none;
+    cursor: pointer;
+    border: 1px dotted #750014;
+    color: #fcfcfc;
+    font-family: inherit;
+    font-size: 1.2em;
+    box-shadow: 2px 2px 2px #440d17;
+    position:absolute;
+    top:85%;
+    left:43%;
+    z-index: 5;
+    font-weight: bold;
+}
+
+.Contact
+{
+    width:100%;
+    background-color: #962523;
+    height:150px;
+    display:block;
+    color:White;
+    opacity: 1;
+    filter:brightness(100%);
+}
+.frst
+{
+    width: 50%;
+    padding: 0px 10px;
+    text-align: left;
+    align-items: center;
+    display: block;
+    float:left;
+}
+.Para
+{
+    word-wrap: break-word;
+    margin-right: 5px;
+}
+.scnd
+{
+    display: block;
+    float:right;
+    text-align: right;
+    padding: 0px 10px;
+}
+@media (min-width:360px) and (max-width:450px)
+{
+    .Home{
+        font-size: 12px;
+    }
+    .MenuButton
+    {
+        left:22.5%;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .Menu{
+        margin-top:60%;
+    }
+    .Contact{
+        width:100%;
+        height:auto;
+    }
+    .frst{
+        width:auto;
+        float: none;
+    }
+    .scnd{
+        display: flex;
+        flex-flow: row wrap;
+        width: auto;
+        float: none;
+        text-align: left;
+    }
+    .Logos{
+        float:none;
+        display:block;
+        position: relative;
+        width:40px;
+        height:40px;
+        padding-bottom: 10px;
+
+    }
+}
+
+.MenuButton:hover, .MenuButton:active {
+    background-color:  white;
+    border: 1px solid #750014;
+    color: #962523;
+    font-weight: bold;
+}

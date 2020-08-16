@@ -1,0 +1,97 @@
+.Sales
+{
+    width:70%;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 3px #999;
+    padding: 10px;
+    margin:10px auto;
+    box-sizing: border-box;
+}
+.ID
+{
+    text-align: center;
+}
+.Row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.Column
+{
+    float: left;
+    padding-left:10px;
+    margin-left: 10px;
+    width: 30%;
+}
+.ColumnMiddle
+{
+    float:left;
+    margin-left: 12%;
+}
+.ColumnRight
+{
+    float:right;
+    padding-right:0px;
+    width: 20%;
+}
+.Item
+{
+    margin-left:20px;
+    padding-top: 10px;
+    text-align: left;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: left;
+}
+.Price
+{
+    margin:auto auto;
+    margin-top: 5%;
+    text-align:center;
+}
+.Check
+{
+    background-color:#962523;
+    height:55px;
+    width:150px;
+    outline: none;
+    cursor: pointer;
+    border: 1px dotted #750014;
+    color: #fcfcfc;
+    font-family: inherit;
+    font-size: 16px;
+    box-shadow: 2px 2px 2px #440d17;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin: auto auto;
+    margin-top:30px;
+    margin-bottom:10px;
+}
+
+.Check:hover,.Check:active{
+    background-color:  white;
+    border: 1px solid #750014;
+    color: #962523;
+    font-weight: bold;
+}
+.Each
+{
+    width: 25%;
+    margin-left:40px;
+}
+
+@media (min-width:360px) and (max-width:450px)
+{
+    .Sales{
+        width:95%;
+    }
+    .ColumnRight
+    {
+        width:40%;
+    }
+    .Column{
+        padding-left: 0;
+        margin-left: 0;
+    }
+}

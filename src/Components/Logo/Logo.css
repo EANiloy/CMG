@@ -1,0 +1,39 @@
+.Logo
+{
+    padding: 5px 10px;
+    height: 100%;
+    background-color: #db6967;
+    border-radius:15%;
+    margin-left:100%;
+    width:70%;
+    cursor: pointer;
+}
+
+.Logo img {
+    height: 90%;
+    width:65px;
+}
+@media (min-width:0px) and (max-width:320px)
+{
+    .Logo{
+        margin-left:60%;
+    }
+}
+
+@media (min-width:321px) and (max-width:375px)
+{
+    .Logo{
+        margin-left:80%;
+    }
+}
+@media(min-width:500px)
+{
+    .Logo{
+    padding: 0 10px;
+    height: 100%;
+    background-color: #f3e7e6be;
+    border-radius: 0px;
+    margin-left: 0%;
+    width:auto;
+    }
+}

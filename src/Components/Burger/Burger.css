@@ -1,0 +1,47 @@
+.Burger
+{
+    width:70%;
+    height : 350px;
+    overflow:auto;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    float:left;
+    margin-left:18%;
+    margin-top:5%;
+    padding-bottom:20px;
+}
+.Burger::-webkit-scrollbar
+{
+    display:none;
+}
+@media (min-width: 360px) and (max-width:450px)
+{
+    .Burger{
+        margin-left: 55px;
+    }
+}
+
+@media (min-width: 500px) and (min-height: 401px)
+{
+    .Burger{
+        width:40%;
+        margin-left:10%;
+    }
+}
+@media (min-width: 1000px) and (max-width:1400px)
+{
+    .Burger{
+        width:28%;
+        height:400px;
+        margin-left:20%;
+    }
+}
+@media (min-width: 1400px) and (min-height: 700px)
+{
+    .Burger{
+        width:25%;
+        height:350px;
+        margin-left:25%;
+    }
+}

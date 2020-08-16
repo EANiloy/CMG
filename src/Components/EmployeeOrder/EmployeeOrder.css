@@ -1,0 +1,61 @@
+.Order
+{
+    width:50%;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 3px #999;
+    padding: 10px;
+    margin:10px auto;
+    box-sizing: border-box;
+}
+.Buttons
+{
+    justify-content: center;
+    display:flex;
+    flex-flow: row wrap;
+}
+.Serving
+{
+    color:#750014;
+    font-weight: bold;
+    margin:10px 10px;
+    padding : 5px 5px;
+    box-shadow:2px 2px 2px #ccc;
+    background-color: #ffffff;
+    cursor:pointer;
+}
+.Serving:hover, .Serving:active{
+    color:white;
+    background-color:#750014;
+}
+.Served:hover, .Served:active{
+    color:white;
+    background-color:#750014;
+    border-color:transparent
+}
+.Serving:disabled{
+    color:grey;
+    background-color:#aaa;
+    cursor:not-allowed;
+}
+.Served:disabled{
+    color:grey;
+    background-color:#aaa;
+    cursor: not-allowed;
+}
+.Served
+{
+    color:#750014;
+    font-weight: bold;
+    margin:10px 10px;
+    padding : 5px 5px;
+    box-shadow:2px 2px 2px #ccc;
+    background-color: #ffffff;
+    cursor:pointer;
+}
+
+@media (min-width:360px) and (max-width:450px)
+{
+    .Order{
+        width: 80%;
+    }
+}

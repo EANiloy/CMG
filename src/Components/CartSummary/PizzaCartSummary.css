@@ -1,0 +1,40 @@
+.CartSummary
+{
+    text-align: center;
+    width:100%;
+    margin:auto;
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+}
+.Pizzabuild
+{
+    width: 100%;
+    height: 250px;
+    margin: 0% 0% 8% 0%;
+}
+.Buttons
+{
+    margin:6% 0% 0% 0%;
+    text-align:center;
+    align-items:center;
+}
+@media (min-width:600px)
+{
+    .CartSummary
+    {
+        width:60%;
+        height:auto;
+        margin:auto;
+    }
+}
+@media (min-width:360px) and (max-width:450px)
+{
+    .Pizzabuild{
+        margin-left:0px;
+        margin-bottom:20%;
+    }
+    .Buttons{
+        margin:10% 0% 0% 0%;
+    }
+}

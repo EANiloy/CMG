@@ -1,0 +1,91 @@
+.Pizza
+{
+    width:100%;
+    margin : auto;
+    overflow:auto;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    float:left;
+    margin-left:0%;
+    margin-top: 5%;
+    padding-bottom:20px;
+}
+.Animation
+{
+    animation: enable 0.3s linear;
+}
+.Pizza::-webkit-scrollbar
+{
+    display:none;
+}
+/* @media (min-width: 600px) and (min-height: 400px)
+{
+    .Pizza{
+        width:350px;
+        height:300px;
+    }
+}
+@media (min-width: 600px) and (min-height: 401px)
+{
+    .Pizza{
+        width:350px;
+        height:400px;
+    }
+}
+@media (min-width: 1000px) and (min-height: 700px)
+{
+    .Pizza{
+        width:350px;
+        height:550px;
+        margin-left: 30%;
+    }
+}
+@media (min-width: 500px) and (max-width: 600px)
+{
+    .Pizza{
+        margin-left: 21%;
+    }
+} */
+
+@media (min-width: 360px) and (max-width:450px)
+{
+    .Pizza{
+        margin-left: 0px;
+    }
+}
+
+@media (min-width: 500px) and (min-height: 401px)
+{
+    .Pizza{
+        width:40%;
+        margin-left:10%;
+    }
+}
+@media (min-width: 1000px) and (max-width:1400px)
+{
+    .Pizza{
+        width:28%;
+        height:400px;
+        margin-left:20%;
+    }
+}
+@media (min-width: 1400px) and (min-height: 700px)
+{
+    .Pizza{
+        width:25%;
+        height:350px;
+        margin-left:25%;
+    }
+}
+@keyframes enable {
+    0% {
+        transform: scale(1);
+    }
+    60% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}

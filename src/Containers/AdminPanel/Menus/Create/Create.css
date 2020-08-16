@@ -1,0 +1,156 @@
+.Edit
+{
+    margin:auto;
+    margin-top:8%;
+    margin-bottom: 5%;
+    width: 50%;
+    text-align: center;
+    box-shadow: 0 2px 3px rgb(121, 120, 120);
+    border: 1px solid rgb(182, 179, 179);
+    padding: 10px;
+    box-sizing: border-box;
+    align-items: center;
+    text-align: center;
+}
+.Update
+{
+    margin: auto;
+    margin-bottom:5%;
+    text-align: center;
+    display: block;
+}
+.Header
+{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        width: 100%;
+}
+.HeaderText1
+{
+    margin:auto 20px;
+    text-align: right;
+}
+
+.HeaderText2
+{
+    margin:auto 90px;
+   text-align: left;
+}
+.Input
+{
+    margin :auto 20px;
+}
+.Items
+{
+    margin:0 5%;
+}
+.Cross
+{
+    border:1px solid #ccc;
+    background-color: transparent;
+    border-radius: 10%;
+    margin:2%;
+}
+.Cross:focus,.Cross:active{
+    outline: #750014;
+    outline-width: 2px;
+    outline-style: dashed;
+}
+.Add:focus,.Add:active{
+    outline: #750014;
+    outline-width: 2px;
+    outline-style: dashed;
+}
+.Add
+{
+    border-radius: 30%;
+    margin: auto auto;
+}.Spinner
+{
+    margin: auto auto;
+    justify-content: center;
+    align-items: center;
+    width: 9.5%;
+    margin-top: 10%;
+}
+.Link
+{
+    width:70px;
+    position:fixed;
+    margin:5px;
+    top:80px;
+    border:none;
+    background-color: transparent;
+    text-align: center;
+    padding:2px;
+    right:50px;
+    height:inherit;
+    color:blue;
+    cursor:pointer;
+    font-size: medium;
+}
+.Link:hover,.Link:active
+{
+    text-decoration: underline;
+}
+.Link:focus{
+    color:blueviolet;
+}
+
+.Button
+{
+    background-color:#962523;
+    height:35px;
+    width:150px;
+    margin: auto auto;
+    outline: none;
+    cursor: pointer;
+    border: 1px dotted #750014;
+    color: #fcfcfc;
+    font-family: inherit;
+    font-size: 16px;
+    box-shadow: 2px 2px 2px #440d17;
+    font-weight: bold;
+    display: block;
+}
+
+
+.Button:hover, .Button:active {
+    background-color:  white;
+    border: 1px solid #750014;
+    color: #962523;
+    font-weight: bold;
+}
+
+@media(max-width:450px)
+{
+    .Link{
+        display:none;
+    }
+}
+@media (min-width:360px) and (max-width:450px)
+{
+    .Spinner{
+        width:2%;
+        margin-left:30%;
+    }
+    .Edit{
+        width:95%;
+    }
+    .Input{
+        width:30%;
+    }
+    .Header{
+        width:100%;
+    }
+    .HeaderText1{
+        width:30%;
+        margin:auto 35px;
+    }
+    .HeaderText2
+    {
+        width:30%;
+        margin:auto auto;
+    }
+}

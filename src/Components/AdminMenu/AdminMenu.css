@@ -1,0 +1,11 @@
+.Items
+{
+    margin:20px;
+}
+
+@media (min-width:360px) and (max-width:450px)
+{
+    .Items{
+        margin:5px;
+    }
+}

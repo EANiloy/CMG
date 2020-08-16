@@ -1,0 +1,330 @@
+
+.Base {
+  z-index :0;
+    margin:auto;
+    margin-top:30px;
+    height: 300px;
+    width: 300px;
+    background-color: #FFB10B;
+    border-radius: 50%;
+    box-shadow: 0 0 10px 8px rgba(0, 0, 0, 0.4);
+  }
+  
+  .Sauce {
+    z-index:1;
+    margin:auto;
+    position:absolute;
+    margin-top:-285px;
+    margin-left:30px;
+    background-color: #FE4E4F;
+    border-radius: 50%;
+    height: 270px;
+    width: 270px;
+  }
+  
+  .Cheese {
+    position: absolute;
+    z-index:2;
+    margin: auto;
+    margin-top:-270px;
+    margin-left:55px;
+    background-color: #FFD72C;
+    border-radius: 50%;
+    height: 240px;
+    width: 240px;
+  }
+  
+  .Pepperoni {
+    z-index: 3;
+    position: absolute;
+    margin: auto;
+    margin-top:-170px;
+    margin-left:160px;
+    height: 25px;
+    width: 25px;
+    background-color: transparent;
+    border-radius: 50%;
+    box-shadow: 
+      -80px -60px 0 0 #C4272C,
+      0 -75px 0 0 #C4272C,
+      -40px -30px 0 0 #C4272C,
+      -80px -60px 0 0 #C4272C,
+      80px -40px 0 0 #C4272C,
+      -60px 30px 0 0 #C4272C,
+      60px 30px 0 0 #C4272C,
+      -30px 80px 0 0 #C4272C,
+      20px 20px 0 0 #C4272C,
+      30px 78px 0 0 #C4272C,
+      35px -30px 0 0 #C4272C;
+    }
+ .Bacon1
+ {
+    z-index: 4;
+    position: absolute;
+    margin: auto;
+    margin-top:-170px;
+    margin-left:160px;
+    height: 35px;
+    width: 20px;
+    transform:rotate(55deg);
+    background:linear-gradient(90deg, rgba(252,3,3,1) 0%, rgba(241,80,80,1) 24%, rgba(0,0,0,1) 25%, rgba(253,132,132,1) 27%, rgba(229,159,159,1) 31%, rgba(0,0,0,1) 33%, rgba(199,166,172,1) 35%, rgba(250,188,188,1) 67%, rgba(0,0,0,1) 69%, rgba(243,150,150,1) 70%, rgba(251,116,116,1) 73%, rgba(1,0,0,1) 74%, rgba(253,120,120,1) 75%, rgba(255,41,41,1) 100%);
+ }
+ .Bacon1::before
+ {
+   content:"";
+  z-index: 4;
+  position: absolute;
+  margin: auto;
+  top:-200%;
+  left:150%;
+  height: 30px;
+  width: 20px;
+  transform:rotate(165deg);
+  background:linear-gradient(90deg, rgba(252,3,3,1) 0%, rgba(241,80,80,1) 24%, rgba(0,0,0,1) 25%, rgba(253,132,132,1) 27%, rgba(229,159,159,1) 31%, rgba(0,0,0,1) 33%, rgba(199,166,172,1) 35%, rgba(250,188,188,1) 67%, rgba(0,0,0,1) 69%, rgba(243,150,150,1) 70%, rgba(251,116,116,1) 73%, rgba(1,0,0,1) 74%, rgba(253,120,120,1) 75%, rgba(255,41,41,1) 100%);
+  border-radius: 0%;
+ }
+ 
+ .Bacon1::after
+ {
+   content:"";
+  z-index: 4;
+  position: absolute;
+  margin: auto;
+  top:-200%;
+  right:250%;
+  height: 30px;
+  width: 20px;
+  transform:rotate(-117deg);
+  background:linear-gradient(90deg, rgba(252,3,3,1) 0%, rgba(241,80,80,1) 24%, rgba(0,0,0,1) 25%, rgba(253,132,132,1) 27%, rgba(229,159,159,1) 31%, rgba(0,0,0,1) 33%, rgba(199,166,172,1) 35%, rgba(250,188,188,1) 67%, rgba(0,0,0,1) 69%, rgba(243,150,150,1) 70%, rgba(251,116,116,1) 73%, rgba(1,0,0,1) 74%, rgba(253,120,120,1) 75%, rgba(255,41,41,1) 100%);
+  border-radius: 0%;
+ }
+ .Bacon2
+ {
+    z-index: 4;
+    position: absolute;
+    left:-30px;
+    bottom: -50px;
+    height: 30px;
+    width: 20px;
+    transform:rotate(270deg);
+    background:linear-gradient(90deg, rgba(252,3,3,1) 0%, rgba(241,80,80,1) 24%, rgba(0,0,0,1) 25%, rgba(253,132,132,1) 27%, rgba(229,159,159,1) 31%, rgba(0,0,0,1) 33%, rgba(199,166,172,1) 35%, rgba(250,188,188,1) 67%, rgba(0,0,0,1) 69%, rgba(243,150,150,1) 70%, rgba(251,116,116,1) 73%, rgba(1,0,0,1) 74%, rgba(253,120,120,1) 75%, rgba(255,41,41,1) 100%);
+    border-radius: 0%;
+ }
+ .Bacon2::before
+ {
+   content:"";
+  z-index: 4;
+  position: absolute;
+  margin: auto;
+  top:-200%;
+  left:150%;
+  height: 30px;
+  width: 20px;
+  transform:rotate(-150deg);
+  background:linear-gradient(90deg, rgba(252,3,3,1) 0%, rgba(241,80,80,1) 24%, rgba(0,0,0,1) 25%, rgba(253,132,132,1) 27%, rgba(229,159,159,1) 31%, rgba(0,0,0,1) 33%, rgba(199,166,172,1) 35%, rgba(250,188,188,1) 67%, rgba(0,0,0,1) 69%, rgba(243,150,150,1) 70%, rgba(251,116,116,1) 73%, rgba(1,0,0,1) 74%, rgba(253,120,120,1) 75%, rgba(255,41,41,1) 100%);
+  border-radius: 0%;
+ }
+ 
+ .Bacon2::after
+ {
+   content:"";
+  z-index: 4;
+  position: absolute;
+  margin: auto;
+  top:100px;
+  right:10px;
+  height:30px;
+  width: 20px;
+  transform:rotate(-60deg);
+  background:linear-gradient(90deg, rgba(252,3,3,1) 0%, rgba(241,80,80,1) 24%, rgba(0,0,0,1) 25%, rgba(253,132,132,1) 27%, rgba(229,159,159,1) 31%, rgba(0,0,0,1) 33%, rgba(199,166,172,1) 35%, rgba(250,188,188,1) 67%, rgba(0,0,0,1) 69%, rgba(243,150,150,1) 70%, rgba(251,116,116,1) 73%, rgba(1,0,0,1) 74%, rgba(253,120,120,1) 75%, rgba(255,41,41,1) 100%);
+  border-radius: 0%;
+ }
+
+  .Mushrooms {
+    z-index: 5;
+    position: absolute;
+    margin: auto;
+    margin-top:-150px;
+    margin-left:160px;
+    rotate: 125;
+    height: 15px;
+    width: 30px;
+    transform:rotate(-60deg);
+    border-radius: 10px;
+    background-color: tranparent;
+    box-shadow: 
+      -80px -60px 0 0 #4C5B5C,
+      0 -75px 0 0 #4C5B5C,
+      -40px -30px 0 0 #4C5B5C,
+      -80px -60px 0 0 #4C5B5C,
+      80px -40px 0 0 #4C5B5C,
+      -60px 30px 0 0 #4C5B5C,
+      60px 30px 0 0 #4C5B5C,
+      -30px 80px 0 0 #4C5B5C,
+      20px 20px 0 0 #4C5B5C,
+      30px 78px 0 0 #4C5B5C,
+      35px -30px 0 0 #4C5B5C;
+    }
+  
+  .Mushrooms:after {
+    content: '';
+    position: absolute;
+    top: 15px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    height: 20px;
+    width: 15px;
+    background-color: transparent;
+    z-index:15;
+    rotate:(1250deg);
+    box-shadow: 
+      -80px -60px 0 0 #4C5B5C,
+      0 -75px 0 0 #4C5B5C,
+      -40px -30px 0 0 #4C5B5C,
+      -80px -60px 0 0 #4C5B5C,
+      80px -40px 0 0 #4C5B5C,
+      -60px 30px 0 0 #4C5B5C,
+      60px 30px 0 0 #4C5B5C,
+      -30px 80px 0 0 #4C5B5C,
+      20px 20px 0 0 #4C5B5C,
+      30px 78px 0 0 #4C5B5C,
+      35px -30px 0 0 #4C5B5C;
+  }
+
+  @media (min-width:0px) and (max-width:319px)
+  {
+    .Sauce {
+      margin-left:15px;
+    }
+    
+    .Cheese {
+      margin-left:30px;
+    }
+    
+    .Pepperoni {
+      margin-left:130px;
+      }
+    .Bacon{
+      z-index:4;
+  
+    }
+    .Mushrooms {
+      margin-left:150px;
+      }
+    }
+
+    @media (min-width:319px) and (max-width:359px)
+  {
+    .Sauce {
+      margin-left:25px;
+    }
+    
+    .Cheese {
+      margin-left:40px;
+    }
+    
+    .Pepperoni {
+      margin-left:160px;
+      }
+    .Bacon{
+      z-index:4;
+  
+    }
+    .Mushrooms {
+      margin-left:150px;
+      }
+    }
+ 
+    @media (min-width:359px) and (min-height:374px)
+  {
+    .Sauce {
+      margin-left:46px;
+    }
+    
+    .Cheese {
+      margin-left:60px;
+    }
+    
+    .Pepperoni {
+      margin-left:175px;
+      }
+    .Bacon{
+      z-index:4;
+  
+    }
+    .Mushrooms {
+      margin-left:168px;
+      }
+    }
+  @media (min-width:375px) and (max-width:424px)
+  {
+    .Sauce {
+      margin-left:53px;
+    }
+    
+    .Cheese {
+      margin-left:68px;
+    }
+    
+    .Pepperoni {
+      margin-left:175px;
+      }
+    .Bacon1{
+      right:45%;
+    }
+    .Bacon2{
+      right:45%;
+    }
+    .Mushrooms {
+      margin-left:185px;
+      }
+    }
+    @media (min-width:425px) and (max-width:450px)
+    {
+        .Sauce {
+          margin-left:79px;
+        }
+        
+        .Cheese {
+          margin-left:95px;
+        }
+        
+        .Pepperoni {
+          margin-left:200px;
+          }
+        .Bacon1{
+          right:45%;
+        }
+        .Bacon2{
+          right:45%;
+        }
+        .Mushrooms {
+          margin-left:205px;
+          }
+        } 
+@media(min-width:450px)
+{
+  
+  .Sauce {
+    margin-left:57px;
+
+  }
+  
+  .Cheese {
+    margin-left:72px;
+  }
+  
+  .Pepperoni {
+    margin-left:172px;
+    }
+  .Bacon{
+    z-index:4;
+    margin-left: 208px;
+  }
+  .Mushrooms {
+    margin-left:172px;
+    }
+   
+}

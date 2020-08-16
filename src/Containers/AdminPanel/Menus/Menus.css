@@ -1,0 +1,65 @@
+.Menus
+{
+    margin-top:15px;
+    padding-top: 10px;
+    text-align: center;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.Spinner
+{
+    margin: auto auto;
+    justify-content: center;
+    align-items: center;
+    width: 9.5%;
+    margin-top: 10%;
+}
+
+.Heading
+{
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    color:#750014;
+}
+
+
+.Link
+{
+    width:70px;
+    position:fixed;
+    margin:5px;
+    top:80px;
+    border:none;
+    background-color: transparent;
+    text-align: center;
+    padding:2px;
+    right:50px;
+    height:inherit;
+    color:blue;
+    cursor:pointer;
+    font-size: medium;
+}
+.Link:hover,.Link:active
+{
+    text-decoration: underline;
+}
+.Link:focus{
+    color:blueviolet;
+}
+@media(max-width:450px)
+{
+    .Link{
+        display:none;
+    }
+}
+@media(min-width:360px) and (max-width:450px)
+{
+    .Spinner
+    {
+        width:2%;
+        margin-left: 30%;
+    }
+}

@@ -1,0 +1,62 @@
+.Post {
+    width: 300px;
+    padding: 0px 10px;
+    height:100%;
+    text-align: left;
+    align-items: center;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 3px #ccc;
+    box-sizing: border-box;
+    display: block;
+    position: relative;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+}
+.Title
+{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+.BuyInfo
+{
+    position: absolute;
+    bottom:0%;
+    text-align: center;
+}
+.Items
+{
+    margin-bottom:15%;
+}
+.Price
+{
+    text-align: center;
+    margin: 1%;
+}
+.Button
+{
+    background-color:#962523;
+    height:35px;
+    width:150px;
+    margin: auto auto;
+    outline: none;
+    cursor: pointer;
+    border: 1px dotted #750014;
+    color: #fcfcfc;
+    font-family: inherit;
+    font-size: 16px;
+    box-shadow: 2px 2px 2px #440d17;
+    font-weight: bold;
+    display: block;
+    margin-left: 38%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+
+.Button:hover, .Button:active {
+    background-color:  white;
+    border: 1px solid #750014;
+    color: #962523;
+    font-weight: bold;
+}

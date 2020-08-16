@@ -1,0 +1,106 @@
+.Panel
+{
+    width:60%;
+    height:200px;
+    padding: 10px;
+    margin:auto auto;
+    margin-top: 10%;
+    display: block;
+}
+.IDiv
+{
+    width: 100%;
+}
+.Go
+{
+    margin: 2px 5px;
+    width: 40px;
+    height: 20px;
+}
+.Input
+{
+    margin-left: 15%;
+    font-size: 16px;
+    color:#750014;
+    height: auto;
+    width: 60%;
+}
+.Header
+{
+    text-align: center;
+}
+.Default
+{
+    text-align: center;
+    padding-top: 10%;
+}
+.Items
+{
+    border:none;
+    color:#750014;
+    height:25%;
+    width:100%;
+    text-align: center;
+    cursor:pointer;
+    background-color: white;
+}
+.RightItems
+{
+    border:none;
+    color:#750014;
+    height:25%;
+    width:100%;
+    text-align: center;
+    cursor:pointer;
+    background-color: white;
+}
+.RightItems:hover, .RightItems:active
+{
+    background-color: #750014;
+    color:white;
+}
+.Items:hover, .Items:active
+{
+    background-color: #750014;
+    color:white;
+}
+.Items:focus
+{
+    color:white;
+    outline:none;
+    background: linear-gradient(#000000,#750014,#750014,#750014,#750014,#750014,#750014,#750014,#000000);
+    filter:brightness(110%);
+    filter:contrast(120%);
+}
+
+.LeftPanel
+{
+    width:30%;
+    height: 100%;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 3px #999;
+    padding: 10px;
+    margin:auto auto;
+    box-sizing: border-box;
+    float:left;
+}
+.RightPanel
+{
+    width:70%;
+    height: 100%;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 3px #999;
+    padding: 10px;
+    margin:auto auto;
+    box-sizing: border-box;
+    float:right;
+}
+@media (min-width:360px) and (max-width:450px)
+{
+    .Panel{
+        width:90%;
+    }
+    .Input{
+        width:40%;
+    }
+}

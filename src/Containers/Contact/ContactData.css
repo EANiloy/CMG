@@ -1,0 +1,55 @@
+.ContactData
+{
+    margin:auto auto;
+    width: 80%;
+    text-align: center;
+    box-shadow: 0 2px 3px rgb(121, 120, 120);
+    border: 1px solid rgb(182, 179, 179);
+    padding: 10px;
+    box-sizing: border-box;
+    align-items: center;
+    text-align: center;
+}
+.Timer
+{
+    margin:20px auto;
+    width: 30%;
+    text-align: center;
+    box-shadow: 0 2px 3px rgb(121, 120, 120);
+    border: 1px solid rgb(182, 179, 179);
+    padding: 10px;
+    box-sizing: border-box;
+    align-items: center;
+    text-align: center;
+}
+.Order
+{
+    color:grey;
+    cursor:pointer;
+    margin:10px 10px;
+    font-weight: bold;
+    font-size:16px;
+}
+.Cancel
+{
+    color:grey;
+    cursor:pointer;
+    margin:10px 10px;
+    font-weight: bold;
+    font-size:16px;
+}
+.Order:hover, .Order:active
+{
+    color:green;
+}
+.Cancel:hover,.Cancel:active
+{
+    color:red;
+}
+
+@media (min-width:360px) and (max-width:450px)
+{
+    .Timer{
+        width:60%;
+    }
+}
