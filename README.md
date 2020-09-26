@@ -1,4 +1,5 @@
-This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
+This project was created as a course porject.
 
-Below you will find some information on how to perform common tasks.<br>
-You can find the most recent version of this guide [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md)
+It has 3 sides. The customer side is visible to anyone who enters the website.
+The admin and employee part is hidden and needs password to enter. If you are a admin or employee double click the logo to get into the login landing page.
+The whole project was done using react js and the backend is handled by Firebase.
